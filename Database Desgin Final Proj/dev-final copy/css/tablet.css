@@ -1,0 +1,64 @@
+nav a {
+    display: block;
+    padding: .8em;
+    font-size: x-small;
+}
+
+nav {
+    text-align: center;
+    height: 1em;
+    max-width: 98%;
+}
+
+h1,
+h2 {
+    font-size: medium;
+}
+
+main {
+    max-width: 45em;
+    text-align: center;
+}
+
+p {
+    font-size: small;
+}
+
+ol,
+ul {
+    font-size: small;
+}
+
+.form main {
+    font-size: small;
+    max-width: 30em;
+}
+
+textarea {
+    max-height: 15em;
+    max-width: 20em;
+}
+
+img {
+    max-height: fit-content;
+    max-width: fit-content;
+    object-fit: contain;
+}
+
+.rowContent {
+    display: block ruby;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 20em;
+    height: 20em;
+    max-width: 60em;
+    max-height: 20em;
+}
+
+.rowContent figure a {
+    width: 5em;
+    height: 3em;
+}
+.form-style-8{
+    max-width: 10em;
+}

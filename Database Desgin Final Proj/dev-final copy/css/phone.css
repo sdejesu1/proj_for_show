@@ -1,0 +1,40 @@
+nav a {
+    display: block;
+    padding: .5em;
+    font-size: xx-small;
+}
+
+nav {
+    text-align: center;
+    height: 1.5em;
+    max-width: fit-content;
+}
+
+h1,
+h2 {
+    font-size: small;
+}
+
+main {
+    max-width: 19em;
+    text-align: center;
+}
+
+p {
+    font-size: x-small;
+}
+
+ol,
+ul {
+    font-size: x-small;
+}
+
+.form main {
+    font-size: x-small;
+    max-width: 25em;
+}
+
+textarea {
+    max-height: 10em;
+    max-width: 15em;
+}
