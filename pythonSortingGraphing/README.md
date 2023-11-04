@@ -1,4 +1,18 @@
-# CS 2300: Automating CS124 Project 4 with Python
+# Automating CS124 Project 4 with Python
+All sorting algorithms provided by Lisa Dion, professor of Data Structures and Algorithms at UVM, with my contributions being the reads and writes.
+
+Updated an old C++ project that recorded the number of reads (accessing data) and writes (mutating the data) for different 
+sorting algorithms to automatically create graphs from the data outputted, rather than creating each graph myself.
+
+Old C++ Project: Analyzing the amount of reads and writes over a vector (list) size of 100, 200, up until 1000, to see how it grows. 
+Algorithms being analyzed: Bubble sort, insertion sort, selection sort, quick sort, radix sort, heap sort, merge sort.
+
+Python Update:
+  Updated the old project to write the output of data to a txt file rather than the console, then used Python to read the data from
+  the file, and used matplotlib library to plot the data into graphs, and automatically saved them into a folder of images, where they
+  are embedded into the readme file.
+
+  
 # Notable Changes:
 1. Graphs below are automated, and citations are updated as well.
 
