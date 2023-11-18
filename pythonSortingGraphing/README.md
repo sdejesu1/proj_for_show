@@ -6,7 +6,7 @@ Code Written by me:
 - Review.h
 - Review.cpp
 - main.cpp
-- Graph.py (
+- Graph.py (Reading from the data files with to gather the data for the graphs, 
   
 Code written by Ben:
 - Graph.py (Plotting the data and labeling the graphs, creating and saving the images)
