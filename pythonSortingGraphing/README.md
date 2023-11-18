@@ -17,7 +17,7 @@ Python Update:
   the file, and used matplotlib library to plot the data into graphs, and automatically saved them into a folder of images, where they
   are embedded into the readme file.
 
-# Technologies: Python, Matplotlib library, C++
+Technologies: Python, Matplotlib library, C++
 
 # Notable Changes:
 1. Graphs below are automated, and citations are updated as well.
