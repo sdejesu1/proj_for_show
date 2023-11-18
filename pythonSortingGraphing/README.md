@@ -1,4 +1,4 @@
-# Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
+?# Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
 
 Technologies: Python, Matplotlib library, C++
 
@@ -6,7 +6,7 @@ Code Written by me:
 - Review.h
 - Review.cpp
 - main.cpp
-- Graph.py (Reading from the data files with to gather the data for the graphs, 
+- Graph.py (Reading from the data files with to gather the data for the graphs, aiding in the plotting)
   
 Code written by Ben:
 - Graph.py (Plotting the data and labeling the graphs, creating and saving the images)
