@@ -6,10 +6,10 @@ Code Written by me:
 - Review.h
 - Review.cpp
 - main.cpp
-- Graph.py
+- Graph.py (
   
 Code written by Ben:
-- Graph.py
+- Graph.py (Plotting the data and labeling the graphs, creating and saving the images)
 
 All sorting algorithms provided by Lisa Dion, professor of Data Structures and Algorithms at UVM, with my contributions being the reads and writes.
 
