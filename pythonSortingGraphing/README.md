@@ -1,8 +1,15 @@
 # Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
 
-Code Written by me:
+Technologies: Python, Matplotlib library, C++
 
+Code Written by me:
+- Review.h
+- Review.cpp
+- main.cpp
+- Graph.py
+  
 Code written by Ben:
+- Graph.py
 
 All sorting algorithms provided by Lisa Dion, professor of Data Structures and Algorithms at UVM, with my contributions being the reads and writes.
 
@@ -16,8 +23,6 @@ Python Update:
   Updated the old project to write the output of data to a txt file rather than the console, then used Python to read the data from
   the file, and used matplotlib library to plot the data into graphs, and automatically saved them into a folder of images, where they
   are embedded into the readme file.
-
-Technologies: Python, Matplotlib library, C++
 
 # Notable Changes:
 1. Graphs below are automated, and citations are updated as well.
