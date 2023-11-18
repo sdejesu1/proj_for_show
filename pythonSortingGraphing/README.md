@@ -1,4 +1,9 @@
-# Automating CS124 Project 4 with Python
+# Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
+
+Code Written by me:
+
+Code written by Ben:
+
 All sorting algorithms provided by Lisa Dion, professor of Data Structures and Algorithms at UVM, with my contributions being the reads and writes.
 
 Updated an old C++ project that recorded the number of reads (accessing data) and writes (mutating the data) for different 
@@ -12,7 +17,8 @@ Python Update:
   the file, and used matplotlib library to plot the data into graphs, and automatically saved them into a folder of images, where they
   are embedded into the readme file.
 
-  
+# Technologies: Python, Matplotlib library, C++
+
 # Notable Changes:
 1. Graphs below are automated, and citations are updated as well.
 
@@ -31,12 +37,12 @@ using matplotlib since it wasn't installed in that distinct environment, so you 
 in the environment in which the program is running. You can also run the commented out block in Graph.py, starting with
 "import subprocess" to install matplotlib in the current environment.
 
-* The only code not authored by myself was code used to create directories in C++ with <filesystem> and filesystem::create_directory in main.cpp.
+* The code not authored by myself or Ben: code used to create directories in C++ with <filesystem> and filesystem::create_directory in main.cpp.
   * Source: "https://en.cppreference.com/w/cpp/filesystem/create_directory".
 * Another piece of code not authored by myself was in graph.py, where I used "import subprocess" and subprocess.check_call() in order to install matplotlib in whichever environment the executable was running in.
   * Source: "https://docs.python.org/3/library/subprocess.html".
 
-Old Project:
+# Old Project:
 
 * Example code:
   ```cpp
