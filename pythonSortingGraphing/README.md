@@ -1,4 +1,4 @@
-?# Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
+# Automating CS124 Project 4 with Python - Steven De Jesus and Ben Payson
 
 Technologies: Python, Matplotlib library, C++
 
