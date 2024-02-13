@@ -1,0 +1,88 @@
+html {
+    height: 99vh;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Blue header */
+h1 {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px 0;
+}
+
+/* Blue footer */
+footer {
+    background-color: #c9e9ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Centered content */
+.content {
+    text-align: center;
+    padding: 50px 0;
+    background: blue;
+}
+
+/* Style headings */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* General styles for forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    padding: 2em;
+}
+
+p {
+    padding: 1em;
+    text-align: center;
+}
+
+li {
+    text-align: center;
+    padding: 1em;
+    margin-right: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+div {
+    padding: 1em;
+}

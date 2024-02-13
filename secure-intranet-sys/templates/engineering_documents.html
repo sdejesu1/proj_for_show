@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Engineering Documents</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <!-- Displaying the message if it's provided -->
+    {% if access_granted %}
+        <h2 class="message">
+            {{ access_message }}
+        </h2>
+        <!-- Display the image -->
+        <div class="centered-image">
+            <img src="../static/engineering.jpg" alt="Engineering Image">
+            <p>Image Source: https://proest.com/construction/document-management/</p>
+        </div>
+    {% elif not access_granted %}
+        <h2 class="message">
+            {{ access_message }}
+        </h2>
+    {% endif %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT Helpdesk</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <!-- Displaying the message if it's provided -->
+    {% if access_granted %}
+        <h2 class="message">
+            {{ access_message }}
+        </h2>
+        <!-- Display the image -->
+        <div class="centered-image">
+            <img src="../static/it.jpg" alt="IT Image">
+            <p>Image Source: https://klik.solutions/managed-it-services/it-help-desk-services/</p>
+        </div>
+    {% elif not access_granted %}
+        <h2 class="message">
+            {{ access_message }}
+        </h2>
+    {% endif %}
+</body>
+</html>

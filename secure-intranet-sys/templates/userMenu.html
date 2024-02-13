@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Menu</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <h1>User Menu</h1>
+    <!-- Displaying the message if it's provided -->
+    {% if welcome_message %}
+        <h2 class="message">
+            <p>{{ welcome_message }}</p>
+        </h2>
+    {% endif %}
+    <p>Select an option:</p>
+    <ul>
+        <li><a href="/time_reporting">Time Reporting</a></li>
+        <li><a href="/accounting_app">Accounting</a></li>
+        <li><a href="/it_helpdesk">IT Helpdesk</a></li>
+        <li><a href="/engineering_documents">Engineering Documents</a></li>
+        <li><a href="/administration">Administration</a></li>
+    </ul>
+<footer><a href="/exit">Exit and Logout</a></footer>
+</body>
+</html>

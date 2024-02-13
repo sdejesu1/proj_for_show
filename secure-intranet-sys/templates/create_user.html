@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create User</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+<div class="create-user-container">
+    <h1>Create User</h1>
+
+    <!-- Displaying the message if it's provided -->
+    {% if message %}
+        <h2 class="message">
+            <p>{{ message }}</p>
+        </h2>
+    {% endif %}
+
+    <form action="/create_user" method="post">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password_choice">Choose Password:</label>
+            <select id="password_choice" name="password_choice" onchange="togglePasswordField()" required>
+                <option value="n">Generate Strong Password</option>
+                <option value="y">Create Own Password</option>
+            </select>
+        </div>
+        <div class="input-group" id="password-field" style="display: none;">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+
+        {% if success_message %}
+            <p class="success-message">{{ success_message }}<br>
+                Make sure to take note of your credentials! (Copy the password)</p>
+            <p class="credentials">
+                Your Username: {{ new_username }}<br>
+                Your Password: {{ new_password }}<br>
+                Your Access Level: {{ access_level }}
+            </p>
+        {% endif %}
+        <!-- Dynamic button to navigate to login page -->
+        <a href="/login" class="login-button">Go to Login Page</a>
+        <button type="submit">Create User</button>
+    </form>
+</div>
+<script>
+    function togglePasswordField() {
+        var passwordChoice = document.getElementById('password_choice');
+        var passwordField = document.getElementById('password-field');
+
+        if (passwordChoice.value === 'y') {
+            passwordField.style.display = 'block'; // Show the password field
+        } else {
+            passwordField.style.display = 'none'; // Hide the password field
+        }
+    }
+</script>
+</body>
+</html>

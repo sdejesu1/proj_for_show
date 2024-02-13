@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administration</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <style>
+        /* Center the image */
+        .centered-image {
+            text-align: center;
+        }
+
+        /* Set image dimensions */
+        .centered-image img {
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+<!-- Displaying the message if it's provided -->
+{% if access_granted %}
+    <h2 class="message">
+        {{ access_message }}
+    </h2>
+    <!-- Display the image -->
+    <div class="centered-image">
+        <img src="../static/admin.jpg" alt="Admin Image">
+        <p>Image Source: https://www.dice.com/career-advice/database-administrator-salary-4-big-questions-answered</p>
+    </div>
+    <h3>
+        Database Records (username, hashed password, access level):
+    </h3>
+    <ul>
+        {% for record in query_message %}
+            <li>
+                <ul>
+                    <li>{{ record }}</li>
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+{% if not access_granted %}
+    <h2 class="message">
+        {{ access_message }}
+    </h2>
+    <h3>
+        {{ query_message }}
+    </h3>
+{% endif %}
+</body>
+</html>

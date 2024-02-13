@@ -1,0 +1,5 @@
+username, password, access_level
+
+engineer123, EngineerPass123!, Engineer
+accountant123, AccountantPass123!, Accountant
+admin123, AdminPass123!, Admin
