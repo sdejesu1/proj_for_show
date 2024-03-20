@@ -19,3 +19,9 @@ Repository demonstrating principles learned in my Cybersecurity Principles class
 
 ## C++ Boxing Repo Link
 Link to a repository demonstrating many techniques and programming concepts learned in my Advanced Programming (C++) class, where I had full creative agency to create any project I want using all concepts learned, and I chose to create a boxing game. Because the repository is so large, the link is present to take you to the repository.
+
+## Javascript Samurai Fighting Link
+Link to a repository demonstrating skills I learned from a tutorial and built on to create a fluidly animated, real time fighting game which can be played by two players on the same keyboard.
+
+## Software Engineering Group Project 1: Spotify Dataset Querying
+Link to a repository for a group project, where we pooled data from Spotify's Top Artists of 2023 and created programs where users can ask any query on the dataset, and where we parse the query into a valid query for Google Firebase, which is the noSQL database we used to store this data.
